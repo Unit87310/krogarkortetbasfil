@@ -26,3 +26,17 @@
   gemenskap: Visby SS25
   krog: TestKrog
   memberNumber: 459
+- id: 5
+  firstName: Hampus
+  lastName: Ryborn
+  memberId: "aammdd-xxxx"
+  gemenskap: Visby SS25
+  krog: TestKrog2
+  memberNumber: 460
+- id: 6
+  firstName: Gustaf
+  lastName: Ryborn
+  memberId: "aammdd-xxxx"
+  gemenskap: Visby SS25
+  krog: TestKrog3
+  memberNumber: 461
