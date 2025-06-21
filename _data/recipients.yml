@@ -40,3 +40,10 @@
   gemenskap: Visby SS25
   krog: TestKrog3
   memberNumber: 461
+- id: 7
+  firstName: Nick
+  lastName: Jordan
+  memberId: "aammdd-xxxx"
+  gemenskap: Visby SS25
+  krog: TestKrog4
+  memberNumber: 462
