@@ -1,0 +1,14 @@
+---
+layout: default
+title: All Cards
+---
+
+<h1>List of Cards</h1>
+
+<ul>
+  {% for recipient in site.data.recipients %}
+    <li>
+      <a href="/cards/{{ recipient.id }}.html">{{ recipient.firstName }} {{ recipient.lastName }}</a>
+    </li>
+  {% endfor %}
+</ul>

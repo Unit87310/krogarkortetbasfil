@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+ <html lang="sv">
+   <head>
+     <meta charset="UTF-8" />
+     <title>{{ page.firstName }} {{ page.lastName }}'s Krögarkort</title>
+     <link rel="stylesheet" href="/assets/css/card.css" />
+   </head>
+   <body>
+     <div class="card-container" onclick="flipCard(this)">
+       <div class="card-inner">
+         <div class="card-front">
+           <img src="/assets/img/gubben.png" class="logo" alt="Logo" />
+           <h1>KRÖGARKORT</h1>
+         </div>
+         <div class="card-back">
+           <h3>{{ page.firstName }} {{ page.lastName }}</h3>
+           <p>{{ page.memberId }}</p> 
+           <div class="row">
+             <div>
+               <strong>Gemenskap</strong>
+               <p>{{ page.gemenskap }}</p> 
+             </div>
+             <div>
+               <strong>Krog</strong>
+               <p>{{ page.krog }}</p> 
+             </div>
+             <img src="/assets/img/qr kod.svg" class="qr" alt="QR Code" />
+           </div>
+           <p class="member">Medlem #{{ page.memberNumber }}</p> 
+           <p class="small">
+             Kortet ger förmåner på krogar i samma gemenskap. <br /><br />
+             Kortet är personligt och får ej överlåtas.
+           </p>
+         </div>
+       </div>
+     </div>
+
+     <script>
+       function flipCard(card) {
+         card.classList.toggle("flipped");
+       }
+     </script>
+   </body>
+ </html>
+ 
