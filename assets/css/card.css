@@ -106,3 +106,17 @@ body {
   margin-top: 10px;
   line-height: 0.8;
 }
+
+/* Making the card bigger*/
+
+.card-container {
+  transform: scale(1.5); /* 1.5 = 150%, use 2 for 200% */
+  transform-origin: top center; /* Keeps the card anchored at the top */
+}
+
+/* Optional: Make sure the card doesn't overflow the screen on mobile */
+@media (max-width: 600px) {
+  .card-container {
+    transform: scale(1.2); /* Slightly smaller on small screens */
+  }
+}
