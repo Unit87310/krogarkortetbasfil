@@ -6,7 +6,8 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-}
+  }
+
 
 .card-container {
   width: 320px;
@@ -116,7 +117,9 @@ body {
 
 /* Optional: Make sure the card doesn't overflow the screen on mobile */
 @media (max-width: 600px) {
-  .card-container {
-    transform: scale(1.2); /* Slightly smaller on small screens */
-  }
+    .card {
+      width: 90%;
+      max-width: 600px;
+      margin: 0 auto;
+    }
 }
