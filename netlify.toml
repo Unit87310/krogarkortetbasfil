@@ -1,0 +1,7 @@
+    [build]
+    base = "."
+    command = "bundle exec jekyll build"  
+    publish = "_site"  
+
+    [context.branch-deploy]
+    command = "npm install && npm run build && cp _headers dist/_headers"
