@@ -20,8 +20,8 @@
 include:
   - _headers
   - test.txt
-title: Admin Panel
 img_src: "/assets/img/kgloggamnamn.png"
+title: Admin Panel
 email: marcus@krögargruppen.se
 description: >- # this means to ignore newlines until "baseurl:"
   Hej och välkommen till Admin Panelen för Krögargruppen. Här kan du hantera alla kort som är inlagda i systemet. |
