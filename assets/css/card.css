@@ -117,9 +117,9 @@ body {
 
 /* Optional: Make sure the card doesn't overflow the screen on mobile */
 @media (max-width: 600px) {
-    .card {
-      width: 90%;
-      max-width: 550px;
-      margin: 0 auto;
-    }
+  .card-container {
+    width: 90%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
 }
