@@ -111,7 +111,7 @@ body {
 /* Making the card bigger*/
 
 .card-container {
-  transform: scale(1) translateY(-33%); /* 1.5 = 150%, use 2 for 200%, personal note: think about 1.5 as 50% bigger, you don't notice the change that much */
+  transform: scale(1) translateY(-20%); /* 1.5 = 150%, use 2 for 200%, personal note: think about 1.5 as 50% bigger, you don't notice the change that much */
   transform-origin: top center; /* Keeps the card anchored at the top */
 }
 
