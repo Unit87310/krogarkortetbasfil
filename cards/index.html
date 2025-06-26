@@ -2,10 +2,11 @@
 layout: default
 title: All Cards
 ---
-
-<img src="{{ site.img_src }}" alt="Krögargruppen logga" />
-
-<h1>List of Cards</h1>
+<!-- Example for index.html or your landing page -->
+<div class="header-row">
+  <img src="{{ site.img_src }}" alt="Krögargruppen logga" class="header-logo" />
+  <h1>List of Cards</h1>
+</div>
 
 <ul>
   {% for recipient in site.data.recipients %}

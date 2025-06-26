@@ -22,7 +22,7 @@ title: Admin Panel
 img_src: "/assets/img/kgloggamnamn.png"
 email: marcus@krögargruppen.se
 description: >- # this means to ignore newlines until "baseurl:"
-  Hej och välkommen till Admin Panelen för Krögargruppen. Här kan du hantera alla kort som är inlagda i systemet.
+  Hej och välkommen till Admin Panelen för Krögargruppen. Här kan du hantera alla kort som är inlagda i systemet. |
   Det går ej att lägga till nya kort, inte heller att redigera befintliga kort.
   Däremot kan man i Admin Panelen se alla kort som är inlagda i systemet, och även notera buggar som uppstår i systemet.
 baseurl: "" # the subpath of your site, e.g. /blog
